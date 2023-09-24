@@ -1,0 +1,134 @@
+* {
+    border: 1px dashed red;
+	min-height: 10px;
+}
+
+#hero {
+    background: url(img/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: absolute; */
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+h1 {
+    align-self: flex-end;
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+#sobreMi {
+    background-color: #7299FE;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: aliceblue;
+    height: 1300px;
+}
+
+.intro {
+    color: #1D06A7;
+}
+
+.cv {
+
+}
+
+p {
+    line-height: 2;
+}
+
+#misSkills {
+    height: 1300px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #9022FF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills{
+    color:#26CC4B;
+}
+
+.Wrapper-mis-skills {
+    display: flex;
+    width: 70%;
+    gap: 50px;
+}
+
+.leftSkills {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+
+.rightSkills {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+progress {
+    
+}
+
+.progress {
+    display: grid;
+    width: 100%;
+   padding: 10px;
+   
+}
+
+/* parte que empieza el portafolio */
+
+
+#portafolio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1300px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #FFD233;
+}
+
+
+
+#portafolioImgs {
+    display: grid;
+    width: 50%;
+    
+
+}
+
+.images {
+   width: auto;
+   padding: 10px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+.topImgs {
+    display: inline-flex;
+}
+
+.bottomImgs {
+    display: inline-flex;
+}
